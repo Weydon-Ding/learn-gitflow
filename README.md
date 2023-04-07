@@ -31,5 +31,12 @@ commit tag:"release/1.0.0-beta"
 commit tag:"release/1.0.0-rc"
 
 checkout main
-merge release/1.0.0
+merge release/1.0.0 tag:"v1.0.0"
+branch hotfix/1
+
+checkout hotfix/1
+commit
+
+checkout main
+merge hotfix/1 tag:"v1.0.1"
 ```
