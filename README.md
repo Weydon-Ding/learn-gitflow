@@ -48,6 +48,10 @@ branch hotfix/1
 checkout hotfix/1
 commit
 
+checkout main
+merge hotfix/1 tag:"v1.0.1"
+
 checkout develop
 merge hotfix/1
+merge main
 ```
