@@ -37,8 +37,17 @@ checkout develop
 merge release/1.0.0
 
 checkout main
-merge release/1.0.0
+merge release/1.0.0 tag:"v1.0.0"
 
 checkout develop
 merge main
+
+checkout main
+branch hotfix/1
+
+checkout hotfix/1
+commit
+
+checkout develop
+merge hotfix/1
 ```
