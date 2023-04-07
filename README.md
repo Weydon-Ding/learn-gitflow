@@ -35,4 +35,10 @@ commit tag:"release/1.0.0-rc"
 
 checkout develop
 merge release/1.0.0
+
+checkout main
+merge release/1.0.0
+
+checkout develop
+merge main
 ```
