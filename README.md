@@ -12,4 +12,5 @@ branch develop
 
 commit
 branch feature/1
+branch feature/2
 ```
