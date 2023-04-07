@@ -27,4 +27,7 @@ commit tag:"release/1.0.0"
 branch release/1.0.0
 branch feature/3
 branch feature/4
+
+checkout feature/3
+commit
 ```
