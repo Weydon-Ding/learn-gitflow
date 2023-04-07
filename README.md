@@ -23,6 +23,9 @@ commit
 checkout develop
 merge feature/1
 merge feature/2
-commit tag:"release/1.0.0"
+commit tag:"release/1.0.0-alpha"
 branch release/1.0.0
+
+checkout release/1.0.0
+commit
 ```
