@@ -27,5 +27,6 @@ commit tag:"release/1.0.0-alpha"
 branch release/1.0.0
 
 checkout release/1.0.0
-commit
+commit tag:"release/1.0.0-beta"
+commit tag:"release/1.0.0-rc"
 ```
