@@ -25,4 +25,6 @@ merge feature/1
 merge feature/2
 commit tag:"release/1.0.0"
 branch release/1.0.0
+branch feature/3
+branch feature/4
 ```
